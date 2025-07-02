@@ -1,0 +1,49 @@
+name: cats
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  #NETWORKING
+  http: ^0.13.3
+  http_interceptor: ^1.0.2
+
+  #LOGGER
+  logger: ^2.5.0
+
+  #TAKING IMAGE FROM NETWORK
+  cached_network_image: ^3.3.1
+
+  #PICKING IMAGE FROM LOCAL STORAGE
+  image_picker: ^1.1.2
+
+  #BLOC
+  flutter_bloc: ^9.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
